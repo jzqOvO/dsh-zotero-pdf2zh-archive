@@ -1,0 +1,4 @@
+- insert:
+    - id: local-zotero-pdf2zh-archive
+      name: '@local/dsh-zotero-pdf2zh-archive'
+      config: {}

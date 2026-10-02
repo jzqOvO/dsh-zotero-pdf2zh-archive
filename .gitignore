@@ -1,0 +1,12 @@
+node_modules/
+.test-work/
+data/
+work/
+*.log
+*.tmp
+*.pdf
+state.json
+status.json
+monitor.lock
+.DS_Store
+Thumbs.db

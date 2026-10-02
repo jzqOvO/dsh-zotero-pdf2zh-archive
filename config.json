@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "serverUrl": "http://127.0.0.1:8890",
+  "sourceDirectory": null,
+  "targetDirectory": "",
+  "dataDirectory": "",
+  "serviceFilter": "deepseek",
+  "outputTypes": [
+    "mono",
+    "dual"
+  ],
+  "pollIntervalMs": 3000,
+  "requestTimeoutMs": 10000,
+  "stableMs": 1500,
+  "maxPdfBytes": 268435456
+}

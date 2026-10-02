@@ -1,0 +1,32 @@
+{
+  "name": "@local/dsh-zotero-pdf2zh-archive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Automatically archive completed DeepSeek PDF2zh translations to Desktop/文献.",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "archive.js",
+    "config.json",
+    "cordis.patch.yml",
+    "locale",
+    "README.md",
+    "test"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test test/archive.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

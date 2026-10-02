@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Zotero 译文自动归档",
+    "description": "PDF2zh 使用 DeepSeek 完成翻译后，自动将中文与双语 PDF 保存到桌面文献文件夹。"
+  }
+}
